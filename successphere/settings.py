@@ -31,6 +31,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'products',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -166,3 +167,6 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CORS_ALLOW_CREDENTIALS = True
+
+# Custom User Model
+AUTH_USER_MODEL = 'accounts.User'
