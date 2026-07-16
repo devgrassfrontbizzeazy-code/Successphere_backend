@@ -1,0 +1,252 @@
+/* ======================================================
+   SUCCESSPHERE ADMIN THEME
+   Colors:
+   Orange : #F47C20
+   Navy   : #0F2B46
+   White  : #FFFFFF
+   ====================================================== */
+
+:root{
+    --orange:#F47C20;
+    --orange-dark:#DD6C17;
+    --navy:#0F2B46;
+    --light:#F8FAFC;
+    --border:#E5E7EB;
+    --text:#374151;
+}
+
+/* ===========================
+   PAGE
+=========================== */
+
+html,
+body{
+    background:var(--light)!important;
+    color:var(--text);
+}
+
+/* Main content */
+
+.app-main,
+.content-wrapper,
+.content,
+.content-header{
+    background:var(--light)!important;
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+#jazzy-sidebar{
+    background:#0F2B46!important;
+    --bs-secondary-bg-rgb:15,43,70!important;
+}
+
+#jazzy-sidebar .sidebar-brand,
+#jazzy-sidebar .brand-link{
+    background:#0F2B46!important;
+}
+
+#jazzy-sidebar .sidebar-wrapper{
+    background:transparent!important;
+}
+
+/* Sidebar text */
+
+#jazzy-sidebar .nav-link,
+#jazzy-sidebar .nav-header,
+#jazzy-sidebar .brand-text,
+#jazzy-sidebar .user-panel a{
+    color:white!important;
+}
+
+/* Active */
+
+#jazzy-sidebar .nav-link.active{
+    background:var(--orange)!important;
+    color:white!important;
+    border-radius:10px;
+}
+
+/* Hover */
+
+#jazzy-sidebar .nav-link:hover{
+    background:rgba(244,124,32,.18)!important;
+}
+
+/* ===========================
+   TOP NAVBAR
+=========================== */
+
+.app-header,
+.main-header,
+.navbar{
+    background:white!important;
+    border-bottom:2px solid var(--orange)!important;
+}
+
+.navbar a{
+    color:var(--navy)!important;
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card{
+    border:none!important;
+    border-radius:14px!important;
+    box-shadow:0 8px 24px rgba(15,43,70,.08)!important;
+    overflow:hidden;
+}
+
+/* Card header */
+
+.card-header{
+    background:white!important;
+    border-bottom:1px solid var(--border)!important;
+}
+
+.card-title{
+    color:var(--navy)!important;
+    font-weight:600;
+}
+
+/* ===========================
+   TABLES
+=========================== */
+
+.table{
+    background:white!important;
+}
+
+.table thead th{
+    background:#F8FAFC!important;
+    color:var(--navy)!important;
+    border-bottom:2px solid var(--border)!important;
+}
+
+.table tbody tr:hover{
+    background:#FFF7EF!important;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn-primary,
+.btn-success{
+    background:var(--orange)!important;
+    border-color:var(--orange)!important;
+}
+
+.btn-primary:hover,
+.btn-success:hover{
+    background:var(--orange-dark)!important;
+    border-color:var(--orange-dark)!important;
+}
+
+.btn-info{
+    background:var(--navy)!important;
+    border-color:var(--navy)!important;
+}
+
+/* ===========================
+   FORMS
+=========================== */
+
+.form-control,
+.form-select{
+    border-radius:10px!important;
+    border:1px solid var(--border)!important;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:var(--orange)!important;
+    box-shadow:0 0 0 .2rem rgba(244,124,32,.18)!important;
+}
+
+/* ===========================
+   LINKS
+=========================== */
+
+a{
+    color:var(--navy);
+}
+
+a:hover{
+    color:var(--orange);
+}
+
+/* ===========================
+   BREADCRUMB
+=========================== */
+
+.breadcrumb{
+    background:transparent!important;
+}
+
+.breadcrumb-item a{
+    color:var(--orange)!important;
+}
+
+/* ===========================
+   PAGINATION
+=========================== */
+
+.page-link{
+    color:var(--navy)!important;
+}
+
+.page-item.active .page-link{
+    background:var(--orange)!important;
+    border-color:var(--orange)!important;
+}
+
+/* ===========================
+   DROPDOWNS
+=========================== */
+
+.dropdown-menu{
+    border:none!important;
+    border-radius:12px!important;
+    box-shadow:0 10px 30px rgba(0,0,0,.12)!important;
+}
+
+/* ===========================
+   RECENT ACTIONS
+=========================== */
+
+.list-group-item{
+    border-color:var(--border)!important;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.main-footer,
+.app-footer{
+    background:white!important;
+    border-top:1px solid var(--border)!important;
+}
+
+/* ===========================
+   REMOVE BOOTSTRAP GREY
+=========================== */
+
+.bg-body,
+.bg-body-secondary,
+.bg-body-tertiary{
+    background:white!important;
+}
+
+.bg-light{
+    background:#F8FAFC!important;
+}
+
+.bg-secondary{
+    background:var(--navy)!important;
+}
